@@ -1,15 +1,12 @@
-/* Ubah warna sidebar */
 section[data-testid="stSidebar"] {
-    background-color: #6A0DAD; /* ungu */
+    background-color: #6A0DAD;
     color: white;
 }
 
-/* Ubah warna judul dan header */
 h1, h2 {
-    color: #FFD700; /* kuning tua */
+    color: #FFD700;
 }
 
-/* Ubah tombol */
 button {
     background-color: #FFD700;
     color: black;
@@ -24,14 +21,12 @@ button:hover {
     color: white;
 }
 
-/* Ubah background konten utama */
 section.main > div {
-    background-color: #fef9ff;
+    background-color: auto;
     padding: 2rem;
     border-radius: 10px;
 }
 
-/* Form input */
 input, textarea {
     border: 2px solid #6A0DAD !important;
     border-radius: 5px;
