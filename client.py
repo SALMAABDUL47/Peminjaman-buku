@@ -25,7 +25,6 @@ if menu == "Lihat Peminjaman":
     else:
         st.info("Belum ada data peminjaman.")
 
-# ---- 2. Tambah Data ----
 elif menu == "Tambah Peminjaman":
     st.header("➕ Tambah Data Peminjaman")
     nama = st.text_input("Nama Peminjam")
@@ -48,7 +47,6 @@ elif menu == "Tambah Peminjaman":
         else:
             st.warning("Semua kolom wajib diisi.")
 
-# ---- 3. Ubah Data ----
 elif menu == "Ubah Peminjaman":
     st.header("✏️ Ubah Data Peminjaman")
     id_edit = st.number_input("Masukkan ID peminjaman", min_value=1, step=1)
@@ -71,7 +69,6 @@ elif menu == "Ubah Peminjaman":
         else:
             st.error("Gagal mengupdate data.")
 
-# ---- 4. Hapus Data ----
 elif menu == "Hapus Peminjaman":
     st.header("🗑️ Hapus Data Peminjaman")
     id_delete = st.number_input("Masukkan ID peminjaman yang ingin dihapus", min_value=1, step=1)
