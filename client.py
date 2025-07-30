@@ -12,7 +12,13 @@ local_css("style.css")
 
 st.title("📚 Sistem Peminjaman Buku - Perpustakaan Kampus")
 
-menu = st.sidebar.selectbox("Pilih Menu", ["Lihat Peminjaman", "Tambah Peminjaman", "Ubah Peminjaman", "Hapus Peminjaman"])
+menu = st.sidebar.selectbox("Pilih Menu",
+                            ["Lihat Peminjaman",
+                             "Tambah Peminjaman",
+                             "Ubah Peminjaman", 
+                             "Hapus Peminjaman"
+                            ]
+                           )
 
 if menu == "Lihat Peminjaman":
     st.header("📖 Daftar Peminjaman Buku")
